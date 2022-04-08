@@ -24,7 +24,7 @@ jobs:
       run: hugo -D
     - name: Commit Update
       run: |
-        echo ":: Renombrando nueva version ::"
+        echo ":: Renombrando nueva version ok ::"
         mv public/ docs/
         git config --global user.email "cmauriciohernandez9004@gmail.com"
         git config --global user.name "MauricioHernandez90"
